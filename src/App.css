@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+.jumbotron {
+    margin: 0;
+    padding: 0px;
+    background-image: linear-gradient(to right, grey, green, black);
+    color: white;
+    
+}
+
+.navbar {
+  background-color: rgb(29, 94, 29);
+  color: white; 
+}
+
+.nav-link {
+  color: white;
+}
+
+.site-footer {
+  background-image: linear-gradient(to right, grey, green, black);
+}
+
+#casinoBody {
+   background-color: black;
+}
+
