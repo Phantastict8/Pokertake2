@@ -1,32 +1,57 @@
-import React, {Component} from 'react';
-import { Navbar, NavbarBrand, NavLink, Jumbotron} from 'reactstrap';
-import {Link} from 'react-router-dom';
+import React, { Component } from "react";
+import { Navbar, Nav, NavbarBrand, Jumbotron } from "reactstrap";
+import { NavLink } from "react-router-dom";
 
 class Navigation extends Component {
-    render () {
+    render() {
         return (
             <>
-                    <Jumbotron fluid>
+                <Jumbotron fluid>
                     <div className="container">
                         <div className="row">
                             <div className="col">
-                                <img height="400px" width="1000px" src="assets/images/phanpokerlogo.jpg"/>
+                                <img
+                                    height="400px"
+                                    width="1000px"
+                                    src="assets/images/phanpokerlogo.jpg"
+                                />
                             </div>
                         </div>
                     </div>
-                    </Jumbotron>
-                    <Navbar dark sticky="top">
+                </Jumbotron>
+                <Navbar dark sticky="top">
                     <div className="container">
-                        <NavbarBrand href="/">PhantasticPoker</NavbarBrand>
-                        <NavLink className="nav-link"><Link className="nav-link" target="_blank">About Us</Link></NavLink>
-                        <NavLink className="nav-link">Contact Us</NavLink>
-                        <NavLink className="nav-link">Resouces</NavLink>
-                        <NavLink className="nav-link"><button className="nav-link" className="dark">Login</button></NavLink>
+                        <Nav navbar horizontal>
+                            <NavbarBrand href="/" to="home">
+                                PhantasticPoker
+                            </NavbarBrand>
+                            <NavLink
+                                href="/"
+                                to="/aboutus"
+                                className="nav-link">
+                                About Us
+                            </NavLink>
+                            <NavLink
+                                href="/"
+                                to="/contactus"
+                                className="nav-link">
+                                Contact Us
+                            </NavLink>
+                            <NavLink
+                                href="/"
+                                to="/resources"
+                                className="nav-link">
+                                Resouces
+                            </NavLink>
+                            <button className="nav-link" className="dark">
+                                Login
+                            </button>
+                        </Nav>
                     </div>
-                    </Navbar>
+                </Navbar>
             </>
         );
-    };
+    }
 }
 
 export default Navigation;

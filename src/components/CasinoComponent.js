@@ -42,12 +42,15 @@ import React, {Component} from 'react';
                                 <option>2/5</option>
                                 <option>5/10</option>
                             </select>
-                            <input type="time"></input>
-                            <input type="time"></input>
+                            <input type="date"></input>
+                            <br />
+                            <input type="time"></input><input type="time"></input>
+                            <br />
                             <select>
                                 <option>Win</option>
                                 <option>Loss</option>
                             </select>
+                            <input type="number" id="winloss" name="winloss" min="5" max="1000000"></input>
                         </div>
                     );
                 });
@@ -62,4 +65,5 @@ import React, {Component} from 'react';
            
         }
     }
-export default Casino; 
+
+export default Casino;

@@ -56,9 +56,13 @@
 
 .site-footer {
   background-image: linear-gradient(to right, grey, green, black);
+  color: yellow;
 }
 
 #casinoBody {
    background-color: black;
 }
 
+.btn-link {
+  color: yellow;
+}

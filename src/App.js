@@ -1,6 +1,7 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import Main from "./components/MainComponent";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
+import Aboutus from "./components/AboutUs";
 import "./App.css";
 
 class App extends Component {
@@ -9,10 +10,10 @@ class App extends Component {
             <div>
                 <BrowserRouter>
                     <div className="App">
-                        <Main/>
+                        <Main />
                     </div>
                 </BrowserRouter>
-            </div>  
+            </div>
         );
     }
 }
