@@ -66,3 +66,43 @@
 .btn-link {
   color: yellow;
 }
+
+#rules {
+  text-align: left;
+}
+
+#li {
+  color: yellow;
+}
+/* 51-22
+       <Navbar dark sticky="top">
+                    <div className="container">
+                        <Nav navbar horizontal>
+                            <NavbarBrand href="/" to="home">
+                                PhantasticPoker
+                            </NavbarBrand>
+                            <NavLink
+                                href="/"
+                                to="/aboutus"
+                                className="nav-link">
+                                About Us
+                            </NavLink>
+                            <NavLink
+                                href="/"
+                                to="/contactus"
+                                className="nav-link">
+                                Contact Us
+                            </NavLink>
+                            <NavLink
+                                href="/"
+                                to="/resources"
+                                className="nav-link">
+                                Resouces
+                            </NavLink>
+                            <button className="nav-link" className="dark">
+                                Login
+                            </button>
+                        </Nav>
+                    </div>
+                </Navbar> 
+                this is the code of the navbar before i messed with it ... */

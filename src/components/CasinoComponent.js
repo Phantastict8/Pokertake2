@@ -56,7 +56,7 @@ import React, {Component} from 'react';
                 });
 
                 return (
-                    <div className="container">
+                    <div className="container-fluid">
                         <div className="row">
                             {casino}
                         </div>
