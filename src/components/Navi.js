@@ -22,7 +22,7 @@ class Navigation extends Component {
                 </Jumbotron>
                 <Navbar dark sticky="top" expand="md">
                     <div className="container">
-                            <Nav navbar horizontal>
+                            <Nav navbar horizontal className="candy">
                                  <div className="row">
                                     <NavbarBrand href="/" to="home">
                                         PhantasticPoker
