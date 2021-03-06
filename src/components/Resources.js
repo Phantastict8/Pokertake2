@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Card, CardImg, CardText, CardBody, CardTitle} from 'reactstrap';
+// import {Card, CardImg, CardText, CardBody, CardTitle} from 'reactstrap';
 
 class Resources extends Component {
     constructor(props){
@@ -8,18 +8,18 @@ class Resources extends Component {
             games:  [
             {
                 id: 0,
-                name: "Texas Hold Em",
-                rules: "Guide"
+                name: "Texas Hold Emmmm",
+                rules: "https://www.instructables.com/Learn-To-Play-Poker---Texas-Hold-Em-aka-Texas-Ho/"
             },
             {
                 id: 0,
                 name:"Pot Limit Omaha",
-                rules: "Guide"
+                rules: "https://www.pokernews.com/poker-rules/omaha-poker.htm"
             },
             {
                 id: 0,
                 name: "Seven Card Stud",
-                rules: "Guide"
+                rules: "https://bicyclecards.com/how-to-play/seven-card-stud-poker/"
             },
             ],
             photos:   [
@@ -35,10 +35,11 @@ class Resources extends Component {
         const resources= this.state.games.map(game=> {
             return(
                 <div id="rules" className="container">
-                    <div danger>
+                    <div>
                         <h2>{game.name}</h2>
                         <br/>
-                        <h6><em>{game.rules}</em></h6>
+                        <h6><a success href={game.rules}>See Game Rules</a></h6>
+                        <a target="_blank" href="https://meetflo.zendesk.com/hc/en-us/articles/230425728-Privacy-Policies">Policies</a>
                         {/* Need to figure out how to make this a hyper link to the game rules. I was reading somewhere that if u use a hyperlink in react it messes up and you have to refresh everything or something weird. maybe theres an alternative  */}
                     </div>
                 </div>
