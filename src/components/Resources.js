@@ -8,7 +8,7 @@ class Resources extends Component {
             games:  [
             {
                 id: 0,
-                name: "Texas Hold Emmmm",
+                name: "Texas Hold Em",
                 rules: "https://www.instructables.com/Learn-To-Play-Poker---Texas-Hold-Em-aka-Texas-Ho/"
             },
             {
