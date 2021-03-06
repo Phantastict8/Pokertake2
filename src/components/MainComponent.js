@@ -6,6 +6,8 @@ import Aboutus from "./AboutUs";
 import Navigation from "./Navi";
 import Footer from "./FooterComponent";
 import Resources from "./Resources";
+import ContactUs from "./ContactUs";
+
 
 class Main extends Component {
     render() {
@@ -19,7 +21,7 @@ class Main extends Component {
                 <Switch>
                     <Route path="/home" component={HomePage} />
                     <Route exact path="/aboutus" render={() => <Aboutus component={Aboutus} />} />
-                    <Route exact path="/constactus" render={() => <Aboutus component={Aboutus} />} />
+                    <Route exact path="/contactus" render={() => <ContactUs component={ContactUs} />} />
                     <Route exact path="/resources" render={() => <Resources component={Resources} />} />
                     <Redirect to="/home" />
                 </Switch>
