@@ -38,9 +38,7 @@ class Resources extends Component {
                     <div>
                         <h2>{game.name}</h2>
                         <br/>
-                        <h6><a success href={game.rules}>See Game Rules</a></h6>
-                        <a target="_blank" href="https://meetflo.zendesk.com/hc/en-us/articles/230425728-Privacy-Policies">Policies</a>
-                        {/* Need to figure out how to make this a hyper link to the game rules. I was reading somewhere that if u use a hyperlink in react it messes up and you have to refresh everything or something weird. maybe theres an alternative  */}
+                        <h6><a className="text-success" target="_blank" href={game.rules}>See Game Rules</a></h6>
                     </div>
                 </div>
             );

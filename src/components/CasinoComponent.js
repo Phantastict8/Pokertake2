@@ -50,14 +50,14 @@ import React, {Component} from 'react';
                                 <option>Win</option>
                                 <option>Loss</option>
                             </select>
-                            <input type="number" id="winloss" name="winloss" min="5" max="1000000"></input>
+                            <input placeholder="$" type="number" id="winloss" name="winloss" min="5" max="1000000"></input>
                         </div>
                     );
                 });
 
                 return (
                     <div className="container-fluid">
-                        <div className="row">
+                        <div className="row blackspace" >
                             {casino}
                         </div>
                     </div>

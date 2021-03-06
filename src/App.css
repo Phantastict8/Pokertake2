@@ -61,6 +61,8 @@
 
 #casinoBody {
    background-color: black;
+   padding: 15px;
+   /* border: solid red 5px; */
 }
 
 .btn-link {
@@ -83,3 +85,8 @@
 .logos {
   color: purple;
 }
+
+/* .blackspace {
+  padding-top: 5px;
+  border: solid red 5px;
+} */
