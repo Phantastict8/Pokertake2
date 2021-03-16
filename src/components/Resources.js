@@ -52,16 +52,16 @@ class Resources extends Component {
         });
         return (
             <>   
-               <div className="container-fluid">
-                    <div className="row">
-                        <div className="col-sm-5">
+               {/* <div className="container-fluid"> */}
+                    <div className="row middle">
+                        <div className="col-sm-4">
                             {resources}
                         </div>
-                        <div className="col-sm-5">
+                        <div className="col-sm-4">
                             {pics}
                         </div>
                     </div>
-                </div>
+                {/* </div> */}
             </>
             );
     }

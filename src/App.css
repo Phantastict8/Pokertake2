@@ -61,7 +61,7 @@
 
 #casinoBody {
    background-color: black;
-   padding: 15px;
+   padding: 60px;
    /* border: solid red 5px; */
 }
 
@@ -90,3 +90,24 @@
   padding-top: 5px;
   border: solid red 5px;
 } */
+
+.para {
+  /* border: solid orange 5px; */
+  /* height: 300px; */
+  font-size: 23px;
+  text-align:left; 
+  /* padding-top: 25px; */
+}
+
+.containter {
+  padding-top: 30px;
+}
+
+h2 {
+  color: yellowgreen;
+}
+
+.middle {
+  justify-content: center;
+  padding: 15px;
+}
