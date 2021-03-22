@@ -60,6 +60,7 @@ class Navigation extends Component {
                                     </NavbarBrand>
                                     {/* <NavbarToggler onClick={this.toggleNav} /> */}
                                 </div>
+                                <div className='col'></div>
                                 <div className="row">
                                     <div className="col">
                                         <NavLink
@@ -69,14 +70,14 @@ class Navigation extends Component {
                                             About Us
                                         </NavLink>
                                     </div>
-                                    <div className="col">
+                                    {/* <div className="col">
                                         <NavLink
                                             href="/"
                                             to="/contactus"
                                             className="nav-link">
                                             Contact Us
                                         </NavLink>
-                                    </div>
+                                    </div> */}
                                     <div className="col">
                                         <NavLink
                                             href="/"

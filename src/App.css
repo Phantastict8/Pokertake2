@@ -42,19 +42,21 @@
     padding: 0px;
     background-image: linear-gradient(to right, grey, green, black);
     color: white;
-    
 }
 
 .navbar {
   background-color: rgb(29, 94, 29);
   color: white; 
+  padding: 20px;
 }
 
 .nav-link {
   color: white;
+  font-weight: bold;
 }
 
 .site-footer {
+  padding: 20px;
   background-image: linear-gradient(to right, grey, green, black);
   color: yellow;
 }

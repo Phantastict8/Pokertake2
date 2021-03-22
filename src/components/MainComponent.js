@@ -21,7 +21,7 @@ class Main extends Component {
                 <Switch>
                     <Route path="/home" component={HomePage} />
                     <Route exact path="/aboutus" render={() => <Aboutus component={Aboutus} />} />
-                    <Route exact path="/contactus" render={() => <ContactUs component={ContactUs} />} />
+                    {/* <Route exact path="/contactus" render={() => <ContactUs component={ContactUs} />} /> */}
                     <Route exact path="/resources" render={() => <Resources component={Resources} />} />
                     <Redirect to="/home" />
                 </Switch>
